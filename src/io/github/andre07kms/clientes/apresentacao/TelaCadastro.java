@@ -1,9 +1,12 @@
 package io.github.andre07kms.clientes.apresentacao;
 
+import io.github.andre07kms.clientes.dados.ClienteDAO;
+import io.github.andre07kms.clientes.dados.FabricaConexoes;
 import io.github.andre07kms.clientes.dominio.Cliente;
 import io.github.andre07kms.clientes.dominio.enums.TipoSexo;
 import estudo.exception.CpfinvalidoException;
 import io.github.andre07kms.clientes.logicanegocio.Cadastro;
+import io.github.andre07kms.clientes.logicanegocio.LogicaCadastroBancoDados;
 import io.github.andre07kms.clientes.logicanegocio.LogicaCadastroMemoria;
 import io.github.andre07kms.clientes.utilitario.ConversorIconParaByteArray;
 
@@ -34,7 +37,8 @@ public class TelaCadastro extends JFrame {
 
     public TelaCadastro(){
         construirTela();
-        this.logicaCadastro = new LogicaCadastroMemoria();
+        var clienteDAO = new ClienteDAO(FabricaConexoes.criarConexao());
+        this.logicaCadastro = new LogicaCadastroBancoDados(clienteDAO);
     }
 
     private void construirTela(){
