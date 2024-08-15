@@ -27,11 +27,11 @@
 ## 📄 Descrição do entregável
 
 <!-- EXEMPLO DE DESCRIÇÃO DE UM PROJETO: -->
-- App (Pasta que armazena os controllers)
-
-- Config/database(Onde fica as configurações do projeto, as connections)
-- Database (armazena as factories, migrations e seeds)
-- Routes ( onde estao todas as rotas do projeto)
+- Src (Pasta que armazena todas as pastas do projeto e está dividas em outras pastas: Estudo/ io.github/andre07kms/clientes)
+- Estudo (Pasta onde está localizada todo o estudo sobre java e suas funcionalidades)
+- io.github/andre07kms/clientes (onde esta todo o codigo fonte do projeto
+  - pastas com toda a descricao do projeto como o codigo da tela de cadrasto, as imagens, banco de dados ...)
+  
   
 
 ---
@@ -42,9 +42,9 @@
 ## 💻 Sobre o projeto
 
 <!-- EXPLICA O MOTIVO DO PROJETO -->
-Projeto-Laravel é uma pagina web que usa o framework Laravel
+JAVA é um repositório onde contém estudo sobre a linguagem java para aprendizado e treinamento.
 
-O desafio proposto para este projeto com o nome de super gestão é a criação de um site de compras. Neste projeto fullstack, o objetivo é simular um site de compras onde se pode remover, adicionar, editar e colocar no carrinho itens selecionados no banco de dados do site.
+O desafio proposto para este projeto com o nome de cadastro-clientes foi para o treinamento e maior desenvolvimento de tecnicas sobre a linguagem java. Neste projeto fullstack, o objetivo é simular um CRUD completo simulando um cadastro de clientes, salvando uma foto e com os dados salvos em um banco de dados.
 
 <!-- LINHA DE DIVISÃO: -->
 ---
@@ -55,8 +55,8 @@ O desafio proposto para este projeto com o nome de super gestão é a criação 
 ## ⚙️ Funcionalidades
 
 <!-- EXEMPLO DE FUNCIONALIDADES: -->
-- [x] Se o usuário quiser adicionar um iten ou mais no carrinho de compras.
-- [x] Se o usuário quiser excluir itens do carrinho. 
+- [x] O usuário salva fotos
+- [x] O usuário cadastra seu dados. 
 
 ---
 
@@ -68,9 +68,9 @@ O desafio proposto para este projeto com o nome de super gestão é a criação 
 ### Widget
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
-![Mobile1](https://github.com/devAndressa/Projeto-Laravel/blob/main/imagens/TelaInicial.png)<br>
-![Mobile2](https://github.com/devAndressa/Projeto-Laravel/blob/main/imagens/SobreN%C3%B3s.png)<br>
-![Mobile3](https://github.com/devAndressa/Projeto-Laravel/blob/main/imagens/Contato.png)
+![Mobile1]()<br>
+![Mobile2]()<br>
+![Mobile3]()
 
 
 ---
@@ -81,12 +81,11 @@ O desafio proposto para este projeto com o nome de super gestão é a criação 
 ## 🚀 Como executar o projeto
 
 1 - Baixar o Projeto <br>
- -Após clonar o projeto entre na pasta app super gestao. <br>
- COMANDO -> cd app_super_gestao  <br>
+ -Após clonar o projeto entre na pasta cadastro-clientes. <br>
+ COMANDO -> cd cadastro-clientes  <br>
 2 - Para rodar o projeto  <br>
- COMANDO -> php artisan serve  <br>
-3 - Depois e só clicar na porta que irá aparecer  <br>
- -(http://127.0.0.1:8000)
+ COMANDO -> depois do projeto aberto é so ir na pasta src/
+ io.github.andre07kms.clientes/main
 
 <!-- ---------------------------------------------------------------------- -->
 
@@ -95,8 +94,8 @@ O desafio proposto para este projeto com o nome de super gestão é a criação 
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [GitHub](https://github.com/), <br>
-[Laravel](https://laravel.com/docs/9.x/installation).  <br>
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[PostegreSQL](https://www.postgresql.org/download/). <br>
+Além disto é bom ter um editor para trabalhar com o código como [InteliJ IDEA](https://www.jetbrains.com/idea/download/?section=windows)
 
 ---
 
@@ -107,9 +106,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Front-End**  ([Laravel](https://laravel.com/docs/11.x)) 
+#### **Front-End**  ([Intelij](https://laravel.com/docs/11.x)) 
 
--   **[PHP](https://www.php.net/docs.php)**
+-   **[Java](https://www.java.com/pt-BR/)**
+-   **[PostegreSQL](https://www.postgresql.org/download/)**
   
 
 <!-- ---------------------------------------------------------------------- -->
