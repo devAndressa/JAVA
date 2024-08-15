@@ -68,9 +68,7 @@ O desafio proposto para este projeto com o nome de cadastro-clientes foi para o 
 ### Widget
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
-![Mobile1]()<br>
-![Mobile2]()<br>
-![Mobile3]()
+![Mobile1](https://github.com/user-attachments/assets/4b83adc5-30a0-4034-a0a2-4520c396bd29)<br>
 
 
 ---
