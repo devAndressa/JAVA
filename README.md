@@ -56,7 +56,8 @@ O desafio proposto para este projeto com o nome de cadastro-clientes foi para o 
 
 <!-- EXEMPLO DE FUNCIONALIDADES: -->
 - [x] O usuário salva fotos
-- [x] O usuário cadastra seu dados. 
+- [x] O usuário cadastra seu dados.
+- [x] Mensagem de confirmação de cadastro.
 
 ---
 
@@ -68,7 +69,8 @@ O desafio proposto para este projeto com o nome de cadastro-clientes foi para o 
 ### Widget
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
-![Mobile1](https://github.com/user-attachments/assets/4b83adc5-30a0-4034-a0a2-4520c396bd29)<br>
+![Mobile1](https://github.com/user-attachments/assets/ec1a871d-4d6e-47bc-9f64-2ea0c5076e2b)
+)<br>
 
 
 ---
